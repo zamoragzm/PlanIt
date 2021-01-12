@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="partyTypeSpinner">
+        <item>Work Party</item>
+        <item>Late-Night Party</item>
+        <item>Undefined</item>
+    </string-array>
+    <string-array name="numOfGuestsSpinner">
+        <item>1-10</item>
+        <item>10-50</item>
+        <item>Undefined</item>
+    </string-array>
+    <string-array name="priceRangeSpinner">
+        <item>$50-$100</item>
+        <item>$100-$350</item>
+        <item>Undefined</item>
+    </string-array>
+    <string-array name="chooseThemeSpinner">
+        <item>Hawaiian</item>
+        <item>Retro</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="foodWork">
+        <item>Sandwiches</item>
+        <item>Salad</item>
+        <item>Cake</item>
+    </string-array>
+    <string-array name="drinkWork">
+        <item>Soda Water</item>
+        <item>Soda</item>
+        <item>Juice</item>
+    </string-array>
+    <string-array name="foodParty">
+    <item>Chips</item>
+    <item>Candy</item>
+    <item>Brownies</item>
+    </string-array>
+    <string-array name="drinkParty">
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>Soda</item>
+    </string-array>
+    <string-array name="gamesHawaiian">
+        <item>Limbo</item>
+    </string-array>
+    <string-array name="decorationsHawaiian">
+        <item>Flower Leis</item>
+        <item>Tiki Torches</item>
+    </string-array>
+    <string-array name="gamesRetro">
+        <item>Twister</item>
+    </string-array>
+    <string-array name="decorationsRetro">
+        <item>Neon Lights</item>
+        <item>DiscoBall</item>
+    </string-array>
+    <string-array name="undefinedGames">
+        <item>Beer Pong</item>
+    </string-array>
+    <string-array name="undefinedDecorations">
+        <item>String Lights</item>
+        <item>Balloons</item>
+    </string-array>
+
+</resources>

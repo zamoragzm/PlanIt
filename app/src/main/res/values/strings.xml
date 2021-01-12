@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">COSC341_Project</string>
+    <string name="plan_it">Plan it.</string>
+    <string name="plan_an_event">Plan an Event</string>
+    <string name="browse_available_events">Browse Available Events</string>
+    <string name="todo">TODO</string>
+    <string name="let_s_plan_your_party">Let\'s plan your party.</string>
+    <string name="create_your_own">Create Custom Event</string>
+    <string name="choose_from_template">Choose from template</string>
+    <string name="price_range">Price Range</string>
+    <string name="of_guests"># of Guests:</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="party_type">Party Type</string>
+    <string name="where_is_the_event">Location:</string>
+    <string name="when_is_the_event_mm_dd_yy">Date:</string>
+    <string name="description">Description:</string>
+    <string name="select_theme">Theme</string>
+    <string name="choose_your_theme">Choose your theme:</string>
+    <string name="suggested">Suggested:</string>
+    <string name="party_plan_for_your_event_on_for_guests_at">Party plan for your event on __ for __ guests at ___</string>
+    <string name="food">Food:</string>
+    <string name="facebook_app_id">1070738663302904</string>
+    <string name="facebook_login_protocol">fb1070738663302904</string>
+    <string name="down_to_earth_events_planning">Down-to-earth events planning.</string>
+
+</resources>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_6"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/push_button4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="77dp"
+        android:background="@drawable/planet_edit2"
+        android:padding="15dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toStartOf="@+id/next2cButton"
+        app:layout_constraintStart_toEndOf="@+id/backC2Button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backC2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="522dp"
+        android:text="@string/back"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/next2cButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/next"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:fadeScrollbars="false"
+        android:scrollbarFadeDuration="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addGamesbutton7">
+
+        <LinearLayout
+            android:id="@+id/gamesc2LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:fadeScrollbars="false"
+        android:scrollbarFadeDuration="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDecbutton5">
+
+        <LinearLayout
+            android:id="@+id/decCLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="52dp"
+        android:fadeScrollbars="false"
+        android:scrollbarFadeDuration="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDrinkbutton3">
+
+        <LinearLayout
+            android:id="@+id/drinkcLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/drinksTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="81dp"
+        android:text="Drinks:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/decorationsTemptextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="Decorations:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodCScrollView" />
+
+    <TextView
+        android:id="@+id/gamesTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="72dp"
+        android:text="Games:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <TextView
+        android:id="@+id/foodTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="102dp"
+        android:text="Food:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/foodCScrollView"
+        android:layout_width="118dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:fadeScrollbars="false"
+        android:isScrollContainer="false"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addFoodbutton">
+
+        <LinearLayout
+            android:id="@+id/foodCScrollViewLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/addItemstextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="38dp"
+        android:text="Add items"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/foodCreateEditText"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodTempTextView" />
+
+    <EditText
+        android:id="@+id/drinkCEditText"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drinksTempTextView" />
+
+    <Button
+        android:id="@+id/addFoodbutton"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:background="#BF8BC34A"
+        android:text="Add"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodCreateEditText" />
+
+    <Button
+        android:id="@+id/addDecbutton5"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:background="#BF8BC34A"
+        android:text="Add"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decorationCEditText" />
+
+    <Button
+        android:id="@+id/addGamesbutton7"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:background="#BF8BC34A"
+        android:text="Add"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/delGamesbutton8"
+        app:layout_constraintTop_toBottomOf="@+id/gamesCreateEditText" />
+
+    <Button
+        android:id="@+id/addDrinkbutton3"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:background="#BF8BC34A"
+        android:text="Add"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/delDrinkbutton4"
+        app:layout_constraintTop_toBottomOf="@+id/drinkCEditText" />
+
+    <Button
+        android:id="@+id/delFoodbutton2"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:background="#BFF44336"
+        android:text="Delete"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/addFoodbutton"
+        app:layout_constraintTop_toBottomOf="@+id/foodCreateEditText" />
+
+    <Button
+        android:id="@+id/delDecbutton6"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:background="#BFF44336"
+        android:text="Delete"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/addDecbutton5"
+        app:layout_constraintTop_toBottomOf="@+id/decorationCEditText" />
+
+    <Button
+        android:id="@+id/delGamesbutton8"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:background="#BFF44336"
+        android:text="Delete"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gamesCreateEditText" />
+
+    <Button
+        android:id="@+id/delDrinkbutton4"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:background="#BFF44336"
+        android:text="Delete"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drinkCEditText" />
+
+    <EditText
+        android:id="@+id/gamesCreateEditText"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gamesTempTextView" />
+
+    <EditText
+        android:id="@+id/decorationCEditText"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decorationsTemptextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

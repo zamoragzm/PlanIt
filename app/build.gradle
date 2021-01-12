@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.example.cosc341_project"
+        minSdkVersion 29
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.android:facebook-share:[4,5)'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'             //for gif display
+    implementation 'com.github.gayanvoice:android-animations:1.0.2'               // for animations
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation files('libs/byte-buddy-1.8.15.jar')
+    implementation files('libs/client-combined-3.141.59.jar')
+    implementation files('libs/commons-exec-1.3.jar')
+    implementation files('libs/guava-25.0-jre.jar')
+    implementation files('libs/okhttp-3.11.0.jar')
+    implementation files('libs/okio-1.14.0.jar')
+    implementation files('libs/client-combined-3.141.59-sources.jar')
+}
